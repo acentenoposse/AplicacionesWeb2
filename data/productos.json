@@ -1,0 +1,118 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Bullpadel Vertex 03",
+      "descripcion": "Pala de alto rendimiento con forma diamante.",
+      "precio": 320000,
+      "img": "assets/img/productos/vertex03.jpg",
+      "categorias": [1, 5, 6]
+    },
+    {
+      "id": 2,
+      "nombre": "Adidas Metalbone 3.2",
+      "descripcion": "Pala potente con sistema de pesos.",
+      "precio": 350000,
+      "img": "assets/img/productos/metalbone32.jpg",
+      "categorias": [1, 6]
+    },
+    {
+      "id": 3,
+      "nombre": "Nox AT10 Genius",
+      "descripcion": "Pala versátil usada por Agustín Tapia.",
+      "precio": 310000,
+      "img": "assets/img/productos/nox_at10.jpg",
+      "categorias": [1, 5]
+    },
+    {
+      "id": 4,
+      "nombre": "Head Delta Pro",
+      "descripcion": "Pala de potencia con gran salida.",
+      "precio": 295000,
+      "img": "assets/img/productos/head_delta.jpg",
+      "categorias": [1]
+    },
+    {
+      "id": 5,
+      "nombre": "Siux Electra ST2",
+      "descripcion": "Pala balanceada para nivel intermedio.",
+      "precio": 270000,
+      "img": "assets/img/productos/siux_electra.jpg",
+      "categorias": [1]
+    },
+
+    {
+      "id": 6,
+      "nombre": "Asics Gel Padel Pro 5",
+      "descripcion": "Comodidad y resistencia.",
+      "precio": 90000,
+      "img": "assets/img/productos/asicsgel5.jpg",
+      "categorias": [2, 4]
+    },
+    {
+      "id": 7,
+      "nombre": "Adidas Courtjam Control",
+      "descripcion": "Gran estabilidad en cancha.",
+      "precio": 110000,
+      "img": "assets/img/productos/adidas_courtjam.jpg",
+      "categorias": [2]
+    },
+    {
+      "id": 8,
+      "nombre": "Nike Vapor Lite Padel",
+      "descripcion": "Livianas y rápidas.",
+      "precio": 105000,
+      "img": "assets/img/productos/nike_vapor.jpg",
+      "categorias": [2, 5]
+    },
+    {
+      "id": 9,
+      "nombre": "Babolat Jet Premura",
+      "descripcion": "Máxima ventilación.",
+      "precio": 130000,
+      "img": "assets/img/productos/babolat_jet.jpg",
+      "categorias": [2, 6]
+    },
+
+    {
+      "id": 10,
+      "nombre": "Remera Nike Dri-FIT",
+      "descripcion": "Liviana y transpirable.",
+      "precio": 45000,
+      "img": "assets/img/productos/nike_dri_fit.jpg",
+      "categorias": [3, 5]
+    },
+    {
+      "id": 11,
+      "nombre": "Adidas Club Tee",
+      "descripcion": "Ideal para entrenamiento.",
+      "precio": 40000,
+      "img": "assets/img/productos/adidas_club.jpg",
+      "categorias": [3]
+    },
+    {
+      "id": 12,
+      "nombre": "Bullpadel Oficial",
+      "descripcion": "Diseño profesional.",
+      "precio": 55000,
+      "img": "assets/img/productos/bullpadel_shirt.jpg",
+      "categorias": [3, 6]
+    },
+    {
+      "id": 13,
+      "nombre": "Head Performance Tee",
+      "descripcion": "Secado rápido.",
+      "precio": 48000,
+      "img": "assets/img/productos/head_tee.jpg",
+      "categorias": [3]
+    },
+    {
+      "id": 14,
+      "nombre": "Nox Team Shirt",
+      "descripcion": "Cómoda para uso diario.",
+      "precio": 42000,
+      "img": "assets/img/productos/nox_shirt.jpg",
+      "categorias": [3, 4]
+    }
+  ]
+}
