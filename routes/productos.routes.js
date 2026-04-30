@@ -4,7 +4,6 @@ import { leerJson, guardarJson, obtenerSiguienteId } from '../utils/db.js';
 const router = Router();
 
 // GET /productos
-// Permite consultar todos los productos. Opcionalmente filtra por categoriaId o stockActivo.
 router.get('/', async (req, res) => {
   try {
     const { productos } = await leerJson('productos.json');
@@ -33,7 +32,6 @@ router.get('/', async (req, res) => {
 });
 
 // GET /productos/:id
-// Consulta un producto específico por ID.
 router.get('/:id', async (req, res) => {
   try {
     const { productos } = await leerJson('productos.json');
@@ -51,7 +49,6 @@ router.get('/:id', async (req, res) => {
 });
 
 // POST /productos
-// Crea un producto nuevo.
 router.post('/', async (req, res) => {
   try {
     const { nombre, descripcion, precio, img, categorias, stockActivo = true } = req.body;
@@ -88,7 +85,6 @@ router.post('/', async (req, res) => {
 });
 
 // PUT /productos/:id
-// Actualiza datos de un producto existente.
 router.put('/:id', async (req, res) => {
   try {
     const productoId = Number(req.params.id);
@@ -123,7 +119,6 @@ router.put('/:id', async (req, res) => {
 });
 
 // DELETE /productos/:id
-// Elimina un producto, cuidando integridad: no se borra si está relacionado con una venta.
 router.delete('/:id', async (req, res) => {
   try {
     const productoId = Number(req.params.id);

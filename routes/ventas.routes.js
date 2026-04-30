@@ -4,7 +4,6 @@ import { leerJson, guardarJson, obtenerSiguienteId } from '../utils/db.js';
 const router = Router();
 
 // GET /ventas
-// Consulta todas las ventas.
 router.get('/', async (req, res) => {
   try {
     const { ventas } = await leerJson('ventas.json');
@@ -15,7 +14,6 @@ router.get('/', async (req, res) => {
 });
 
 // POST /ventas
-// Crea una venta validando usuario, productos, stock activo e integridad de datos.
 router.post('/', async (req, res) => {
   try {
     const { usuarioId, items } = req.body;

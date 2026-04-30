@@ -4,7 +4,6 @@ import { leerJson } from '../utils/db.js';
 const router = Router();
 
 // GET /categorias
-// Consulta todas las categorías disponibles.
 router.get('/', async (req, res) => {
   try {
     const { categorias } = await leerJson('categorias.json');

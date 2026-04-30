@@ -4,7 +4,6 @@ import { leerJson } from '../utils/db.js';
 const router = Router();
 
 // POST /usuarios/login
-// Se usa POST porque se envían datos sensibles como email y password en el body.
 router.post('/login', async (req, res) => {
   try {
     const { email, password } = req.body;
